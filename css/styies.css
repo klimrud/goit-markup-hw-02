@@ -1,3 +1,8 @@
+:root {
+ --typical-lh: 1.14;
+ --main-color: #212121;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
@@ -5,14 +10,14 @@ body {
 }
 
 .list {
-  list-style: none;
+ list-style: none;
 }
 
 .link {
-  text-decoration: none;
+ text-decoration: none;
 }
  
-/* цвет фона шапки #FFFFFF; */
+/* а шапки #FFFFFF; */ 
 /* цвет фона герой #2F303A;*/
 /* цвет фона страницы #FFFFFF*/
 /* цвет фона команда #F5F4FA; цвет карточек #FFFFFF*/
@@ -23,12 +28,11 @@ body {
 /*  #FFFFFF; rgba(255, 255, 255, 0.6); */
 /* цвет акцента  #2196F3; */
 
-/* page Studio*/
+/* --page Studio----*/
 
-/* ---шапка--- */
+/* -----------шапка------------ */
 .header-logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.38;
@@ -47,16 +51,16 @@ body {
 .header-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: var(--typical-lh);
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-color);
 }
 
 .header-mail,
 .header-tel {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: var(--typical-lh);
   letter-spacing: 0.02em;
   color: #757575;
 }
@@ -70,7 +74,7 @@ body {
   color: #2196f3;
 }
 
-/* -----------hero------------ */
+/* --------------hero------------ */
 .hero {
   background: #2f303a;
 }
@@ -94,7 +98,7 @@ body {
   color: #ffffff;
   cursor: pointer;
 }
-/* -------особливості-------- */
+/* --------------особливості-------- */
 .section {
 }
 .list {
@@ -104,10 +108,10 @@ body {
 .section-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: var(--typical-lh);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--main-color);
 }
 .section-text {
   font-size: 14px;
@@ -115,7 +119,7 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-/* ------Чим ми займаємося--- */
+/* -------------Чим ми займаємося--- */
 
 .content-title {
   font-weight: 700;
@@ -123,14 +127,14 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
 }
 .content-list {
 }
 .content-img {
 }
 
-/* ------наша команда-------- */
+/* ------------наша команда-------- */
 
 .title {
   font-weight: 700;
@@ -138,7 +142,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
 }
 .command {
   background: #f5f4fa;
@@ -154,7 +158,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
 }
 .command-desc {
   font-size: 16px;
@@ -163,7 +167,7 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-/* -------підвал------------ */
+/* --------------підвал---------------- */
 .footer {
   background: #2f303a;
 }
@@ -183,6 +187,7 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
 .footer-tel,
 .footer-mail {
   font-size: 14px;
@@ -194,24 +199,28 @@ body {
 /* --page Portfolio-- */
 
 
-/* ---filter--- */
+/* -----------filter----------- */
 
 .filter {
 
 }
 
-.filter-item {
+.filter-btn {
+ font-family: inherit;  
  font-weight: 500;
  font-size: 16px;
  line-height: 1.62;
  text-align: center;
  letter-spacing: 0.03em;
- color: #212121;
+ color: var(--main-color);
+ cursor: pointer;
 }
-.filter-item:hover {
-color: #FFFFFF;
+.filter-btn:hover {
+ color: #FFFFFF;
+ background: #2196F3;
  }
-/* ---gallery--- */
+
+/* ---------gallery---------- */
 .gallery {
 
 }
@@ -224,7 +233,7 @@ color: #FFFFFF;
  font-size: 18px;
  line-height: 2.00;
  letter-spacing: 0.06em;
- color: #212121;
+ color: var(--main-color);
 }
 .gallery-text {
  font-size: 16px;
