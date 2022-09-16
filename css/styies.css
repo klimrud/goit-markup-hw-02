@@ -11,7 +11,7 @@ body {
 .link {
   text-decoration: none;
 }
-
+ 
 /* цвет фона шапки #FFFFFF; */
 /* цвет фона герой #2F303A;*/
 /* цвет фона страницы #FFFFFF*/
@@ -34,6 +34,14 @@ body {
   line-height: 1.38;
   letter-spacing: 0.03em;
   color: #2196f3;
+}
+
+.logo-big {
+ color: #000000;  
+}
+
+.logo-small {
+ color: #FFFFFF
 }
 
 .header-link {
@@ -84,6 +92,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  cursor: pointer;
 }
 /* -------особливості-------- */
 .section {
@@ -183,5 +192,43 @@ body {
 }
 
 /* --page Portfolio-- */
+
+
 /* ---filter--- */
+
+.filter {
+
+}
+
+.filter-item {
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.62;
+ text-align: center;
+ letter-spacing: 0.03em;
+ color: #212121;
+}
+.filter-item:hover {
+color: #FFFFFF;
+ }
 /* ---gallery--- */
+.gallery {
+
+}
+.gallery-item {
+}
+.gallery-link {
+}
+.gallery-title {
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 2.00;
+ letter-spacing: 0.06em;
+ color: #212121;
+}
+.gallery-text {
+ font-size: 16px;
+ line-height: 1.88;
+ letter-spacing: 0.03em;
+ color: #757575;
+}
