@@ -1,7 +1,187 @@
-ul{
-    list-style-type: none;
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #757575;
 }
 
-body{
-    font-family: 'Roboto', sans-serif;
+.list {
+  list-style: none;
 }
+
+.link {
+  text-decoration: none;
+}
+
+/* цвет фона шапки #FFFFFF; */
+/* цвет фона герой #2F303A;*/
+/* цвет фона страницы #FFFFFF*/
+/* цвет фона команда #F5F4FA; цвет карточек #FFFFFF*/
+/* цвет фона подвал #2F303A;*/
+
+/* цвет основного текста #757575 */
+/* вторичный цвет  #212121; */
+/*  #FFFFFF; rgba(255, 255, 255, 0.6); */
+/* цвет акцента  #2196F3; */
+
+/* page Studio*/
+
+/* ---шапка--- */
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.38;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.header-mail,
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.header-tel:hover,
+.header-mail:hover,
+.header-link:hover,
+.header-tel:focus,
+.header-mail:focus,
+.header-link:focus {
+  color: #2196f3;
+}
+
+/* -----------hero------------ */
+.hero {
+  background: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+/* -------особливості-------- */
+.section {
+}
+.list {
+}
+.section-list {
+}
+.section-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.section-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ------Чим ми займаємося--- */
+
+.content-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.content-list {
+}
+.content-img {
+}
+
+/* ------наша команда-------- */
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.command {
+  background: #f5f4fa;
+}
+.command-list {
+  background: #ffffff;
+}
+.command-img {
+}
+.command-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.command-desc {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* -------підвал------------ */
+.footer {
+  background: #2f303a;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.footer-list {
+}
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-tel,
+.footer-mail {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* --page Portfolio-- */
+/* ---filter--- */
+/* ---gallery--- */
